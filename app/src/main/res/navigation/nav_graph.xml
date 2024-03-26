@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.bbg.supervisorevaluation.fragment.splashScreen.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.bbg.supervisorevaluation.fragment.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_scanCodeFragment"
+            app:destination="@id/scanCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.bbg.supervisorevaluation.fragment.profile.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_evaluation_survey_fragment"
+            app:destination="@id/evaluation_survey_fragment" />
+        <argument
+            android:name="selectedSupervisor"
+            app:argType="com.bbg.supervisorevaluation.data.SupervisorModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/evaluation_survey_fragment"
+        android:name="com.bbg.supervisorevaluation.fragment.evaluationSurvey.EvaluationSurveyFragment"
+        android:label="evaluation_survey_fragment"
+        tools:layout="@layout/fragment_evaluation_survey" >
+        <action
+            android:id="@+id/action_evaluation_survey_fragment_to_vielenDankFragment"
+            app:destination="@id/vielenDankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vielenDankFragment"
+        android:name="com.bbg.supervisorevaluation.fragment.dankeFragment.VielenDankFragment"
+        android:label="fragment_vielen_dank"
+        tools:layout="@layout/fragment_vielen_dank" >
+
+        <action
+            android:id="@+id/action_vielenDankFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scanCodeFragment"
+        android:name="com.bbg.supervisorevaluation.fragment.login.qr_code.ScanCodeFragment"
+        android:label="fragment_scan_code"
+        tools:layout="@layout/fragment_scan_code" >
+        <action
+            android:id="@+id/action_scanCodeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <argument
+            android:name="scannedData"
+            app:argType="string" />
+    </fragment>
+</navigation>

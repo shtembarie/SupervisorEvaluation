@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">SupervisorEvaluation</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="bbg_evaluate_the_supervisor">bbg Bewertet den Vorgesetzten!</string>
+    <string name="vielen_Dank">Vielen Dank für Ihre Bewertung!</string>
+    <string name="beschreibung">Bewerten Sie Ihre Vorgesetzten mit Leichtigkeit und Effizienz! Unser innovatives Evaluierungstool bietet Ihnen die Möglichkeit, fundiertes Feedback zu geben und die Leistung Ihrer Vorgesetzten objektiv zu bewerten.</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Willkommen!"</string>
+    <string name="invalid_username">Kein gültiger Benutzername</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="log_in">Log in</string>
+    <string name="anmelden">Anmelden</string>
+    <string name="willkommen">Willkommen</string>
+    <string name="melden">Melden Sie sich mit Ihrem registrierten Mandanten-ID oder per Scan-Druck an.</string>
+    <string name="passwort">Passwort</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="mandanten_id">Mandanten-ID</string>
+    <string name="survey_title">Survey Titel</string>
+    <string name="label">label</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="w_hlen_sie_ihre_vorgesetzer">Wählen Sie Ihre Vorgesetzer</string>
+    <string name="label2">Vorname Nachname</string>
+    <string name="department">Abteilung</string>
+    <string name="score">Avg. score 9.5</string>
+    <string name="evaluation">Rock star</string>
+    <string name="bewerten_sie_ihre_vorgesetzer_bis_sp_tenstens">Wählen Sie Ihren Vorgesetzten zur Bewertung aus!</string>
+    <string name="datum">Datum</string>
+    <string name="description">Beschreibung</string>
+    <string name="title">Titel</string>
+    <string name="supervisor">SupervisorIn</string>
+    <string name="nein">Nein</string>
+    <string name="ja">Ja</string>
+    <string name="reason">Begründen Sie es (*)</string>
+    <string name="zurück">Zurück</string>
+    <string name="weiter">Weiter</string>
+    <string name="_1">1 </string>
+    <string name="begin_evaluation">Beginnen Sie mit der Auswertung</string>
+    <string name="von"> von </string>
+    <string name="_12"> 12</string>
+    <string name="scan_id">Bitte scannen Sie Ihre Mandanten-ID hier.</string>
+    <string name="kameraberechtigung_verweigert">Kameraberechtigung verweigert</string>
+    <string name="scanned_data">scannedData</string>
+
+    <string name="id_existiert_nicht">ID existiert nicht</string>
+    <string name="vorgesetzter_wählen">Bitte wählen Sie zunächst Ihren Vorgesetzter aus</string>
+    <string name="vorgesetzter_wählen1">Bitte wählen Sie zunächst Ihren Vorgesetzter aus</string>
+    <string name="json_parse_error">Error parsing JSON response</string>
+    <string name="error_fetching_survey_data">Error fetching survey data</string>
+    <string name="survey_result_posted_successfully">Survey result posted successfully</string>
+    <string name="failed_to_post_survey_result">Failed to post survey result</string>
+    <string name="error_posting_survey_result">Error posting survey result</string>
+    <string name="end_button_text">Ende</string>
+    <string name="survey_completed">Survey completed</string>
+    <string name="no_previous_topic_or_question">No previous topic or question to go back to</string>
+
+
+
+</resources>
